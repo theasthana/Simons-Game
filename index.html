@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simons Game</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div id="container">
+        <div id="control-box">
+            <h2>Simons <br>Game</h2><br>
+            <div id="count"><p id="num">| |</p></div>
+            <span>
+                <button id="start" onclick="simonGame()"></button>
+                <button id="strict" onclick="strict()"></button>
+                <button id="reset" onclick="reset(true)"></button>
+                <br>
+                <h4>Start</h4>
+                <h4>Strict</h4>
+                <h4>Reset</h4>
+                
+            </span>
+        </div>
+        
+        <div class="simon-btn" id="red" onclick="isClick('red')"></div>
+        <div class="simon-btn" id="green" onclick="isClick('green')"></div><br>
+        <div class="simon-btn" id="yellow" onclick="isClick('yellow')"></div>
+        <div class="simon-btn" id="blue" onclick="isClick('blue')"></div>
+        
+    </div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
